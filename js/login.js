@@ -13,10 +13,11 @@ document.getElementById('btn-submit').addEventListener('click', function(){
 
     // step4: verify email and password
     if(email === 'arman@gmail.com' && password === 'alliswell'){
-        console.log('Valid User')
+        console.log('Valid User');
+        window.location.href ='bank.html';
     }
     else{
-        console.log('Dure Jaiya Mor');
+        alert('Dure Jaiya Mor');
     }
 
     
